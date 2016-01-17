@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k4V-N9-Wc6" customClass="StopWatchView" customModule="ProductiveReward" customModuleProvider="target">
+                                <rect key="frame" x="180" y="236" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.29411764705882354" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="VEo-UK-HvV"/>
+                                    <constraint firstAttribute="width" constant="240" id="Vzr-Uw-ELh"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KCx-Gl-8I6">
+                                <rect key="frame" x="216" y="141" width="169" height="87"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="72"/>
+                                <color key="textColor" red="0.68357680414312016" green="0.68089607490570292" blue="0.85102982954545459" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.39477816208720329" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="k4V-N9-Wc6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KMo-HU-tEw"/>
+                            <constraint firstItem="k4V-N9-Wc6" firstAttribute="top" secondItem="KCx-Gl-8I6" secondAttribute="bottom" constant="8" symbolic="YES" id="Q2d-gw-fbH"/>
+                            <constraint firstItem="k4V-N9-Wc6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="k1d-wa-HwP"/>
+                            <constraint firstItem="KCx-Gl-8I6" firstAttribute="centerX" secondItem="k4V-N9-Wc6" secondAttribute="centerX" id="sdS-cD-lIh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="swView" destination="k4V-N9-Wc6" id="Rmt-b3-lQ2"/>
+                        <outlet property="timeLabel" destination="KCx-Gl-8I6" id="nmB-Ge-epJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="235" y="171"/>
+        </scene>
+    </scenes>
+</document>
