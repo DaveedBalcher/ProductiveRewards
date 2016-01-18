@@ -8,7 +8,6 @@
 
 import Foundation
 
-
 // Utility Functions
 func delay(delay:Double, closure:()->()) {
     dispatch_after(

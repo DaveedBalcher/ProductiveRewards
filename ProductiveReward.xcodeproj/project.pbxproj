@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43DF55A61C4C480200CF09DB /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DF55A51C4C480200CF09DB /* ProgressBarView.swift */; };
+		43DF55A81C4C481F00CF09DB /* ProgressBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43DF55A71C4C481F00CF09DB /* ProgressBarView.xib */; };
+		43DF55AA1C4C509B00CF09DB /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DF55A91C4C509B00CF09DB /* Animations.swift */; };
+		43DF55AC1C4C512500CF09DB /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DF55AB1C4C512500CF09DB /* Types.swift */; };
 		43F506D31C4C300A00E35BE3 /* Reward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F506D21C4C300A00E35BE3 /* Reward.swift */; };
 		43F506D51C4C388C00E35BE3 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F506D41C4C388C00E35BE3 /* Utility.swift */; };
 		43FEEDC61C4A929F0003E14D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FEEDC51C4A929F0003E14D /* AppDelegate.swift */; };
@@ -39,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43DF55A51C4C480200CF09DB /* ProgressBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		43DF55A71C4C481F00CF09DB /* ProgressBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgressBarView.xib; sourceTree = "<group>"; };
+		43DF55A91C4C509B00CF09DB /* Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		43DF55AB1C4C512500CF09DB /* Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
 		43F506D21C4C300A00E35BE3 /* Reward.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reward.swift; sourceTree = "<group>"; };
 		43F506D41C4C388C00E35BE3 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		43FEEDC21C4A929F0003E14D /* ProductiveReward.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductiveReward.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,10 +119,14 @@
 				43FEEDF71C4B542C0003E14D /* Work.swift */,
 				43F506D21C4C300A00E35BE3 /* Reward.swift */,
 				43FEEDC71C4A929F0003E14D /* MainViewController.swift */,
+				43FEEDC91C4A929F0003E14D /* Main.storyboard */,
 				43FEEDF31C4B36C00003E14D /* StopWatchView.swift */,
 				43FEEDF51C4B3A5D0003E14D /* StopWatchView.xib */,
+				43DF55A51C4C480200CF09DB /* ProgressBarView.swift */,
+				43DF55A71C4C481F00CF09DB /* ProgressBarView.xib */,
+				43DF55A91C4C509B00CF09DB /* Animations.swift */,
+				43DF55AB1C4C512500CF09DB /* Types.swift */,
 				43F506D41C4C388C00E35BE3 /* Utility.swift */,
-				43FEEDC91C4A929F0003E14D /* Main.storyboard */,
 				43FEEDCC1C4A929F0003E14D /* Assets.xcassets */,
 				43FEEDCE1C4A929F0003E14D /* LaunchScreen.storyboard */,
 				43FEEDD11C4A929F0003E14D /* Info.plist */,
@@ -248,6 +260,7 @@
 				43FEEDF61C4B3A5D0003E14D /* StopWatchView.xib in Resources */,
 				43FEEDD01C4A929F0003E14D /* LaunchScreen.storyboard in Resources */,
 				43FEEDCD1C4A929F0003E14D /* Assets.xcassets in Resources */,
+				43DF55A81C4C481F00CF09DB /* ProgressBarView.xib in Resources */,
 				43FEEDCB1C4A929F0003E14D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +292,9 @@
 				43FEEDC61C4A929F0003E14D /* AppDelegate.swift in Sources */,
 				43FEEDF81C4B542C0003E14D /* Work.swift in Sources */,
 				43F506D31C4C300A00E35BE3 /* Reward.swift in Sources */,
+				43DF55AC1C4C512500CF09DB /* Types.swift in Sources */,
+				43DF55AA1C4C509B00CF09DB /* Animations.swift in Sources */,
+				43DF55A61C4C480200CF09DB /* ProgressBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

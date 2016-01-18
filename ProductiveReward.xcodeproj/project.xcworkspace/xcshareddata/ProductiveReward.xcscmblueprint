@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A0E4F7DA95A575BFB5215D0EC9A7EDBF8F25E97D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E28BE05AC21056BF7BCACA2728053545A9C63959" : 0,
+    "A0E4F7DA95A575BFB5215D0EC9A7EDBF8F25E97D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B627F017-3E14-4C33-A787-8965D8F74504",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E28BE05AC21056BF7BCACA2728053545A9C63959" : "",
+    "A0E4F7DA95A575BFB5215D0EC9A7EDBF8F25E97D" : "ProductiveRewards\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ProductiveReward",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ProductiveReward.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DavidBalcher\/ProductiveRewards.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A0E4F7DA95A575BFB5215D0EC9A7EDBF8F25E97D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DavidBalcher\/LiptonForPA-PayPal.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E28BE05AC21056BF7BCACA2728053545A9C63959"
+    }
+  ]
+}

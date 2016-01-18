@@ -3,12 +3,13 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="MainViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="ProductiveReward" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -28,19 +29,30 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KCx-Gl-8I6">
                                 <rect key="frame" x="216" y="141" width="169" height="87"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="72"/>
-                                <color key="textColor" red="0.68357680414312016" green="0.68089607490570292" blue="0.85102982954545459" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.68235294117647061" green="0.68235294117647061" blue="0.85098039215686272" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J3U-vr-iag" customClass="ProgressBarView" customModule="ProductiveReward" customModuleProvider="target">
+                                <rect key="frame" x="20" y="372" width="560" height="100"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.396078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Uc7-h1-IvY"/>
+                                </constraints>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.39477816208720329" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.396078431372549" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="J3U-vr-iag" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="E9I-ZB-ugq"/>
                             <constraint firstItem="k4V-N9-Wc6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KMo-HU-tEw"/>
                             <constraint firstItem="k4V-N9-Wc6" firstAttribute="top" secondItem="KCx-Gl-8I6" secondAttribute="bottom" constant="8" symbolic="YES" id="Q2d-gw-fbH"/>
+                            <constraint firstItem="J3U-vr-iag" firstAttribute="top" secondItem="k4V-N9-Wc6" secondAttribute="bottom" constant="8" symbolic="YES" id="Y6u-RP-Tnw"/>
                             <constraint firstItem="k4V-N9-Wc6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="k1d-wa-HwP"/>
+                            <constraint firstItem="J3U-vr-iag" firstAttribute="centerX" secondItem="k4V-N9-Wc6" secondAttribute="centerX" id="oJo-kf-S7E"/>
                             <constraint firstItem="KCx-Gl-8I6" firstAttribute="centerX" secondItem="k4V-N9-Wc6" secondAttribute="centerX" id="sdS-cD-lIh"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="progressBarView" destination="J3U-vr-iag" id="7cn-Lc-32N"/>
                         <outlet property="swView" destination="k4V-N9-Wc6" id="Rmt-b3-lQ2"/>
                         <outlet property="timeLabel" destination="KCx-Gl-8I6" id="nmB-Ge-epJ"/>
                     </connections>
